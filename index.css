@@ -121,3 +121,15 @@ a{
     margin-top: 50px;
 }
 
+.image-container {
+    display: inline-block;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.2);
+  }
+
